@@ -1,10 +1,10 @@
-import 'package:aliexpo/layout/cubit/cubit.dart';
-import 'package:aliexpo/layout/cubit/states.dart';
-import 'package:aliexpo/layout/shop_layout.dart';
-import 'package:aliexpo/shared/components/constants.dart';
-import 'package:aliexpo/shared/network/local/shared_preferences.dart';
-import 'package:aliexpo/shared/network/remote/dio_helper.dart';
-import 'package:aliexpo/shared/styles/themes.dart';
+import 'package:aliexpo/ui/layout/cubit/cubit.dart';
+import 'package:aliexpo/ui/layout/cubit/states.dart';
+import 'package:aliexpo/ui/layout/shop_layout.dart';
+import 'package:aliexpo/ui/shared/components/constants.dart';
+import 'package:aliexpo/data/network/local/shared_preferences.dart';
+import 'package:aliexpo/data/network/remote/dio_helper.dart';
+import 'package:aliexpo/core/styles/themes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
